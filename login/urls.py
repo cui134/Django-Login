@@ -20,6 +20,6 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^index/', views.IndexView.as_view()),
     url(r'^login/', views.LoginView),
-    url(r'^register/', views.register),
+    url(r'^register/', views.Register),
     url(r'^logout/', views.LogoutView.as_view()),
 ]
